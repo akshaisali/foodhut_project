@@ -1,0 +1,29 @@
+{% load static %}
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>login page</title>
+  <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+  <link  type="text/css" href="{% static 'css/style.css' %}"rel="stylesheet">
+</head>
+<body style="background-image: url('{%static 'media/foodie.jpg'%}');">
+<div class="loginpage">
+<div class="container">
+  <div class="left-section">
+    <div class="header">
+      <h1 class="animation a1">Welcome TO FoodHuT</h1>
+      
+    </div> 
+    <form method="POST" class="form">
+      {% csrf_token %}
+      <input type="text" class="form-field animation a3"name="uname" placeholder="Username">
+      <input type="password" class="form-field animation a4"name="pwd"placeholder="Password">
+       <button type="submit" class="animation a6"value="sumbit">login</button>
+    </form>
+    </div>
+  </div>
+  <div class="right-section"></div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,69 @@
+
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>foothut</title>
+
+<!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+    <link  type="text/css" href="{% static 'css/style.css' %}"rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+    <script src="{% static 'script.js' %}"></script>
+</head>
+
+<body style="background-image: url('{%static 'media/indian.jpg'%}');">
+
+<div id="header">
+    <li id="site_name">FoodHuT</li>
+    <li onclick="scrollto('home');">HOME</li>
+    <li onclick="scrollto('about');">ABOUT</li>
+    <li onclick="scrollto('contact');">CONTACT</li>
+    <li onclick="scrollto('home');">LOGIN & SIGNUP</li>
+
+    
+   </div>
+   <div class="container-fluid">
+   <div id="home">
+    <div id="style1" style="background-image: url('{%static 'img/\.jpg'%}');">
+    <h1>FoodHut</h1>
+    <h2 style="font-size:30px">Always fresh & Delightful</h2>
+    <br>
+    <br>
+    <button class="button1"><span><a href=" login"> login </a></span></button>
+    <button class="button2"><span><a href="signup">signup</a> </span></button>
+    <br>
+    <br>
+    <br>
+  </div>
+   </div>
+   </div>
+   <div class="container-fluid">
+   <div id="about">
+     <h1>About us</h1>
+    <p>The pain itself is a lot of pain Hey, no one is accusing us of this sort of thing, doing the very best for taking on the duties of truthful pleasures! The labor of the ancestors may please the hindrances, but it is true pleasure! The other words were unencumbered, however, by the greater pain which they had to endure, so that they were blinded by these;</p>
+    <p>The pain itself is a lot of pain Is this one to be accepted as necessities, no less? For us, it is often wise to choose whoever pays. any pleasure. To be taken, to do, to seek to obtain. That pain was everything in life.
+     Nobis, saepe sapiente omnis qui eligendi pariatur. quis voluptas. Assumenda facere adipisci quaerat. Illum doloremque quae omnis vitae.</p>
+    <p>Lonsectet adipisicing elit. He despises flattery, and I will explain it by reason of pain, but rather harsh. </p>
+   </div>
+   </div>
+   <div class="container-fluid">
+   <div id="contact">
+   <h1>contact</h1>
+   <h2> <br> FoodHuT@gmail.com </h2>
+   <h3>or</h3>
+   <h4>You can fill the form below</h4>
+
+   <div class="detail">
+     <form action="https://getform.io/f/002c2f24-199b-41f8-9dc9-c7f278a86a58" method="POST">
+       <input type="text" id="text1" placeholder="Name">
+       <input type="text"id="text2" placeholder="Message">
+       <button type="submit"id="button">Send</button>
+       </form>
+       </div>
+       </div>
+         </body>
+       </html>

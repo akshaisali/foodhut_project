@@ -1,0 +1,374 @@
+
+
+    body {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        backdrop-filter: brightness(0.9887);
+        }
+        #header
+        {
+         width:100%;
+         margin:0px auto;
+         padding:0px;
+         text-align:center;
+         height:70px;
+         line-height:70px;
+        }
+        #header li
+        {
+         display:inline-block;
+         margin-right:25px;
+         font-size:17px;
+         color:#e3e8ec;
+         font-weight:bold;
+         cursor:pointer;
+        }
+        #header #site_name
+        {
+         text-align:left;
+         width:680px;
+         font-size:45px;
+         margin-left:20px;
+         font-family: 'Brush Script MT', cursive;
+        }
+        #home,#about,#contact
+        {
+         margin-top:100px;
+         width:90%;
+         height:400px;
+         margin-left:5%;
+         padding:50px;
+         box-sizing:border-box;
+         background-color:rgba(78, 64, 138, 0.562);
+         border-radius:10px;
+         color:white;
+        }
+        #home h1
+        {
+         font-size:45px;
+         
+        }
+        #home p
+        {
+         font: size 40px;
+        }
+        #about p
+        {
+         font-size:22px;
+        }
+        
+        #contact input[type="text"]
+        {
+         width:250px;
+         height:35px;
+         padding-left:10px;
+         float:left;
+         margin-left:80px;
+         border:none;
+        }
+        
+        #contact input[type="submit"]
+        {
+         float:left;
+         margin-left:20px;
+         height:35px;
+         width:100px;
+         background:none;
+         color:white;
+         border:1px solid white;
+        }
+        #text1{
+          margin-right:-1cm ;
+        }
+        .detail{
+          margin-left: 11cm;
+        }
+        #button{
+          float:left;
+         margin-left:20px;
+         height:35px;
+         width:100px;
+         background:none;
+         color:white;
+         border:1px solid white;
+        }
+    
+    #home h1{
+        margin-left:18cm;
+    }
+    #home h2{
+        margin-left:16cm;
+    }
+
+#about h1{
+margin-left:18cm;
+
+}
+#contact h1{
+    margin-left:19cm;
+    }
+#contact h2{
+        margin-left:17cm;
+
+        }
+#contact h3{
+            margin-left:20cm;
+    
+            }
+#contact h4{
+            margin-left:17cm;
+        
+                }
+.button1 {
+  border-radius: 4px;
+  background-color:rgba(117, 64, 138, 0.562);
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 10px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  margin-left: 15cm;
+  font-family: 'Brush Script MT', cursive;
+}
+
+.button1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+
+.button1 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+
+.button1:LOGIN span {
+  padding-right: 25px;
+}
+
+
+.button1:LOGIN span:after {
+  opacity: 1;
+  right: 0;
+}
+.button2 {
+    border-radius: 4px;
+    background-color:rgba(117, 64, 138, 0.562);
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 10px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    margin-left: 1cm;
+    font-family: 'Brush Script MT', cursive;
+    
+  }
+  
+  .button2 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  
+  .button2 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  
+  .button2:LOGIN span {
+    padding-right: 25px;
+  }
+  
+  
+  .button2:LOGIN span:after {
+    opacity: 1;
+    right: 0;
+  }
+  #style1{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+  }
+  
+  .loginpage {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Brush Script MT', cursive;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    display: flex;
+    height: 100vh;
+  }
+  .left-section {
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    -webkit-animation-name: left-section;
+            animation-name: left-section;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
+  }
+  .right-section {
+    flex: 1;
+    background: linear-gradient(to right, #f50629 0%, #fd9d08 100%);
+    transition: 1s;
+    background-image: url(static\img\garantisado.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .header > h1 {
+    margin: 0;
+    color: #f506a5;
+  }
+  .header > h4 {
+    margin-top: 10px;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.4);
+  }
+  .form {
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+  }
+  .form > p {
+    text-align: right;
+  }
+  .form > p > a {
+    color: #000;
+    font-size: 14px;
+  }
+  .form-field {
+    height: 46px;
+    padding: 0 16px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    font-family: 'Brush Script MT', cursive;
+    outline: 0;
+    transition: .2s;
+    margin-top: 20px;
+  }
+  .form-field:focus {
+    border-color: #0f7ef1;
+  }
+  .form > button {
+    padding: 12px 10px;
+    border: 0;
+    background: linear-gradient(to right, #f50629 0%, #fd9d08 100%);
+    border-radius: 3px;
+    margin-top: 10px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-family: 'Brush Script MT', cursive;
+  }
+  .animation {
+    -webkit-animation-name: move;
+            animation-name: move;
+    -webkit-animation-duration: .4s;
+            animation-duration: .4s;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
+  }
+   
+  .a1 {
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
+  }
+  .a2 {
+    -webkit-animation-delay: 2.1s;
+            animation-delay: 2.1s;
+              
+            
+  }
+  .a3 {
+    -webkit-animation-delay: 2.2s;
+            animation-delay: 2.2s;
+  }
+  .a4 {
+    -webkit-animation-delay: 2.3s;
+            animation-delay: 2.3s;
+  }
+  .a5 {
+    -webkit-animation-delay: 2.4s;
+            animation-delay: 2.4s;
+  }
+  .a6 {
+    -webkit-animation-delay: 2.5s;
+            animation-delay: 2.5s;
+  }
+  @keyframes move {
+    0% {
+      opacity: 0;
+      visibility: hidden;
+      -webkit-transform: translateY(-40px);
+              transform: translateY(-40px);
+    }
+    100% {
+      opacity: 1;
+      visibility: visible;
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+  }
+  @keyframes left-section {
+    0% {
+      opacity: 0;
+      width: 0;
+    }
+    100% {
+      opacity: 1;
+      padding: 20px 40px;
+      width: 440px;
+      
+      
+    }
+  }
+.servicesfigure{margin-left: 20cm;
+
+}
+  .servicestitle{
+    text-align: center;
+    
+  }
+.para{
+  color: white;
+  
+
+}
